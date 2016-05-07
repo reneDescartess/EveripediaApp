@@ -24,18 +24,36 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.sharedApplication().registerUserNotificationSettings(notificationSettings)
         
         
+        
+        
         return true
     }
     
+    //first method of remote push notifications
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings:
+        UIUserNotificationSettings) {
+        
+        UIApplication.sharedApplication().registerForRemoteNotifications()
+    }
     
+    //second method for remote push notifications
+    func application(application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: NSData) {
+        
+        print(deviceToken)
+        
+    }
     
+    //third method for remote push notifications
+    func application(application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: NSError) {
+        
+        print(error.localizedDescription)
+    }
     
-    
-    
-    
-    
-    
-    
+    //fourth method for remote push notifications
+    func application(application: UIApplication, didReceiveRemoteNotification userInfo: [NSObject : AnyObject]) {
+        
+        
+    }
     
     
     
