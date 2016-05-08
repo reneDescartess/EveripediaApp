@@ -5,6 +5,7 @@
 //
 
 //  Copyright © Christian Deciga. All rights reserved.
+//Splash Screen File
 
 import UIKit
 
