@@ -14,6 +14,7 @@
 		891B72D81CDC8BAF00A80356 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 891B72D61CDC8BAF00A80356 /* LaunchScreen.storyboard */; };
 		891B72E01CDDA23600A80356 /* NEWLOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 891B72DF1CDDA23600A80356 /* NEWLOGO.png */; };
 		891B72E21CDDA43D00A80356 /* LDSplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891B72E11CDDA43D00A80356 /* LDSplashView.swift */; };
+		891B72E41CE0787500A80356 /* DefaultPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 891B72E31CE0787500A80356 /* DefaultPaths.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		891B72D91CDC8BAF00A80356 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		891B72DF1CDDA23600A80356 /* NEWLOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NEWLOGO.png; sourceTree = "<group>"; };
 		891B72E11CDDA43D00A80356 /* LDSplashView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LDSplashView.swift; sourceTree = "<group>"; };
+		891B72E31CE0787500A80356 /* DefaultPaths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultPaths.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				891B72CF1CDC8BAF00A80356 /* ViewController.swift */,
 				891B72E11CDDA43D00A80356 /* LDSplashView.swift */,
 				891B72D11CDC8BAF00A80356 /* Main.storyboard */,
+				891B72E31CE0787500A80356 /* DefaultPaths.swift */,
 				891B72D41CDC8BAF00A80356 /* Assets.xcassets */,
 				891B72DF1CDDA23600A80356 /* NEWLOGO.png */,
 				891B72D61CDC8BAF00A80356 /* LaunchScreen.storyboard */,
@@ -144,6 +147,7 @@
 			files = (
 				891B72D01CDC8BAF00A80356 /* ViewController.swift in Sources */,
 				891B72E21CDDA43D00A80356 /* LDSplashView.swift in Sources */,
+				891B72E41CE0787500A80356 /* DefaultPaths.swift in Sources */,
 				891B72CE1CDC8BAF00A80356 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
