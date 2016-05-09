@@ -29,7 +29,7 @@ class ViewController: UIViewController, LDSplashDelegate {
         self.splashView = LDSplashView(initWithSplashIcon: splashIcon!, backgroundColor: snapchatColor, animationType:. Fade)
         self.splashView!.animationDuration = 3.0 //3 seconds
         self.view.addSubview(splashView!)
-        self.splashView!.startAnimation()
+        self.splashView!.startAnimation() //calls the startAnimation in LDSplashView.swift file
         
     }
     
